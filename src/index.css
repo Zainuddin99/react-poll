@@ -7,7 +7,33 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html, body {
+  width: 100%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.poll{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  margin: 40px 0;
+}
+.poll1, .poll2{
+  padding: 20px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  border: none;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+}
+.poll1{
+  background-color: red;
+}
+.poll2{
+  background-color:green;
 }
